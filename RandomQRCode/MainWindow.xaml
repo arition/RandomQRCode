@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RandomQRCode"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="RandomQRCode" Height="350" Width="350">
     <Grid>
-        
+        <Image x:Name="QRImage" HorizontalAlignment="Left" VerticalAlignment="Top" Height="350" Width="350" MouseUp="QRImage_MouseUp"/>
     </Grid>
 </Window>
